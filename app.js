@@ -1,6 +1,6 @@
-// set inital value to zero
+// valor inicial desde 0
 let count = 0;
-// select value and buttons
+// valor a botones
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
