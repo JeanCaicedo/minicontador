@@ -4,6 +4,7 @@ let count = 0;
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
+//aprendiendo a usar if  y else de forma basica
 btns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     const styles = e.currentTarget.classList;
@@ -27,3 +28,5 @@ btns.forEach(function (btn) {
     value.textContent = count;
   });
 });
+
+// aprender a documentar mi codigo.
